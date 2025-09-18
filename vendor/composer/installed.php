@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => 'opencats/opencats',
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
+        'reference' => '6871a55c41d427fcdb9733767386ab3119702788',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => false,
+    ),
+    'versions' => array(
+        'ckeditor/ckeditor' => array(
+            'pretty_version' => '4.20.2',
+            'version' => '4.20.2.0',
+            'reference' => '8cc8f1b065f93d90c305c2609fec4e4215dd20ba',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../ckeditor/ckeditor',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'opencats/opencats' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => '6871a55c41d427fcdb9733767386ab3119702788',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'phpmailer/phpmailer' => array(
+            'pretty_version' => 'v6.8.0',
+            'version' => '6.8.0.0',
+            'reference' => 'df16b615e371d81fb79e506277faea67a1be18f1',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../phpmailer/phpmailer',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);
